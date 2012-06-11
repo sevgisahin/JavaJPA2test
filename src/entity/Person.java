@@ -23,6 +23,7 @@ public class Person implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+    //test git diff
     private String userName;
     private String password;
     private String phoneNumber;
